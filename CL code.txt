@@ -1,0 +1,393 @@
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+Listing groceries items...
+C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\utils.js:132
+      throw err;
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:503:11)
+    at ServerResponse.setHeader (_http_outgoing.js:510:3)
+    at ServerResponse.header (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.json (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\express\lib\response.js:264:10)
+    at C:\Users\erick\Documents\GitHub\groceries-server\server.js:45:13
+    at C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongoose\lib\model.js:4233:16
+    at cb (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongoose\lib\query.js:1365:14)
+    at err (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\utils.js:415:14)
+    at executeCallback (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\utils.js:404:25)
+    at handleCallback (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\utils.js:128:55)
+    at self._endSession.self._endSession (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\cursor.js:900:36)
+    at ClientSession.endSession (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb-core\lib\sessions.js:72:41)
+    at Cursor._endSession (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb-core\lib\cursor.js:185:13)
+    at Cursor._endSession (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\cursor.js:217:59)
+    at C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\cursor.js:900:18
+    at nextFunction (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb-core\lib\cursor.js:599:18)
+Emitted 'error' event at:
+    at C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongoose\lib\model.js:4235:13
+    at cb (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongoose\lib\query.js:1365:14)
+    [... lines matching original stack trace ...]
+    at nextFunction (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb-core\lib\cursor.js:599:18)
+    at Cursor.next (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb-core\lib\cursor.js:810:3)
+    at Cursor._next (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\cursor.js:202:36)
+    at fetchDocs (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\cursor.js:897:10)
+    at toArray (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\cursor.js:927:3)
+    at executeOperation (C:\Users\erick\Documents\GitHub\groceries-server\node_modules\mongodb\lib\utils.js:420:24)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! groceries-server@0.0.1 start: `node server.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the groceries-server@0.0.1 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\erick\AppData\Roaming\npm-cache\_logs\2022-12-05T04_51_06_374Z-debug.log
+
+C:\Users\erick\Documents\GitHub\groceries-server>
+
+Microsoft Windows [Version 10.0.19044.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\erick>cd Desktop
+
+C:\Users\erick\Desktop>cd h
+
+C:\Users\erick\Desktop\h>cd groceries
+
+C:\Users\erick\Desktop\h\groceries>ionic serve --lab
+
+? The Ionic CLI has an update available (3.20.0 => 5.4.16)! Would you like to install it? No
+Not automatically updating your CLI.
+Starting app-scripts server: --address 0.0.0.0 --port 8100 --livereload-port 35729 --dev-logger-port 53703 --nobrowser
+--lab - Ctrl+C to cancel
+[22:05:44]  watch started ...
+[22:05:44]  build dev started ...
+[22:05:44]  clean started ...
+[22:05:44]  clean finished in 3 ms
+[22:05:44]  copy started ...
+[22:05:44]  deeplinks started ...
+[22:05:44]  deeplinks finished in 18 ms
+[22:05:44]  transpile started ...
+[22:05:49]  transpile finished in 4.40 s
+[22:05:49]  preprocess started ...
+[22:05:49]  preprocess finished in 1 ms
+[22:05:49]  webpack started ...
+[22:05:49]  copy finished in 4.79 s
+[22:05:54]  webpack finished in 5.09 s
+[22:05:54]  sass started ...
+[22:05:55]  sass finished in 1.34 s
+[22:05:55]  postprocess started ...
+[22:05:55]  postprocess finished in 10 ms
+[22:05:55]  lint started ...
+[22:05:55]  build dev finished in 10.98 s
+[22:05:55]  watch ready in 11.13 s
+[22:05:55]  dev server running: http://localhost:8100/
+
+[OK] Development server running!
+     Local: http://localhost:8100
+     External: http://192.168.1.178:8100
+     DevApp: groceries@8100 on DESKTOP-P46ROMS
+
+[22:05:59]  tslint: C:/Users/erick/Desktop/h/groceries/src/pages/home/home.ts, line: 29
+            Property 'alertCtrl' is declared but its value is never read.
+
+      L29:  NavController, public toastCtrl: ToastController,  private alertCtrl: AlertController, public dataService: G
+      L30:     dataService.dataChanged$.subscribe((dataChanged: boolean) => {
+
+[22:05:59]  lint finished in 4.41 s
+
+Microsoft Windows [Version 10.0.19044.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\erick>heroku login
+ »   Warning: heroku update available from 7.53.0 to 7.67.1.
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/24199065-3da2-4415-a370-258e15f93384?requestor=SFMyNTY.g2gDbQAAAAw0Ny40MS44Mi4xNDFuBgBAjYDghAFiAAFRgA.znYxmQ8oWlenO-15MUuvIHisN3z38li3TRHQ8UTya5Y
+Logging in... done
+Logged in as erickson247@gmail.com
+
+C:\Users\erick>
+C:\Users\erick>
+
+Microsoft Windows [Version 10.0.19044.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\erick>cd Desktop
+
+C:\Users\erick\Desktop>cd h
+
+C:\Users\erick\Desktop\h>git clone https://github.com/SWDV-665/groceries-server.git
+Cloning into 'groceries-server'...
+remote: Enumerating objects: 37, done.
+remote: Total 37 (delta 0), reused 0 (delta 0), pack-reused 37
+Receiving objects: 100% (37/37), 11.32 KiB | 1.13 MiB/s, done.
+Resolving deltas: 100% (18/18), done.
+
+C:\Users\erick\Desktop\h>
+
+C:\Users\erick\Desktop\h\groceries-server>git push heroku master
+Enumerating objects: 37, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (37/37), 11.32 KiB | 3.77 MiB/s, done.
+Total 37 (delta 18), reused 37 (delta 18), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Building on the Heroku-22 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Node.js app detected
+remote:
+remote: -----> Creating runtime environment
+remote:
+remote:        NPM_CONFIG_LOGLEVEL=error
+remote:        NODE_VERBOSE=false
+remote:        NODE_ENV=production
+remote:        NODE_MODULES_CACHE=true
+remote:
+remote: -----> Installing binaries
+remote:        engines.node (package.json):  unspecified
+remote:        engines.npm (package.json):   unspecified (use default)
+remote:
+remote:        Resolving node version 18.x...
+remote:        Downloading and installing node 18.12.1...
+remote:        Using default npm version: 8.19.2
+remote:
+remote: -----> Installing dependencies
+remote:        Installing node modules
+remote:
+remote:        added 79 packages, and audited 80 packages in 3s
+remote:
+remote:        9 vulnerabilities (3 moderate, 3 high, 3 critical)
+remote:
+remote:        To address issues that do not require attention, run:
+remote:          npm audit fix
+remote:
+remote:        To address all issues, run:
+remote:          npm audit fix --force
+remote:
+remote:        Run `npm audit` for details.
+remote:
+remote: -----> Build
+remote:
+remote: -----> Caching build
+remote:        - npm cache
+remote:
+remote: -----> Pruning devDependencies
+remote:
+remote:        up to date, audited 1 package in 2s
+remote:
+remote:        found 0 vulnerabilities
+remote:
+remote: -----> Build succeeded!
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 41.6M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://groceries-server-test.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/groceries-server-test.git
+ * [new branch]      master -> master
+
+C:\Users\erick\Desktop\h\groceries-server>mongo create mongolab
+MongoDB shell version v3.6.23
+connecting to: mongodb://127.0.0.1:27017/create?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("88ea39f9-1a5a-4c33-87a9-8d442b9029d0") }
+MongoDB server version: 3.6.23
+2022-12-04T22:44:13.933-0600 E -        [main] file [mongolab] doesn't exist
+failed to load: mongolab
+
+C:\Users\erick\Desktop\h\groceries-server>heroku addons: create mongolab
+ »   Warning: heroku update available from 7.53.0 to 7.67.1.
+ »   Warning: addons: is not a heroku command.
+Did you mean addons? [y/n]: y
+ »   Error: Unexpected arguments: create, mongolab
+ »   See more help with --help
+
+C:\Users\erick\Desktop\h\groceries-server>heroku addons:create mongolab
+ »   Warning: heroku update available from 7.53.0 to 7.67.1.
+Creating mongolab on ⬢ groceries-server-test... !
+ !    Couldn't find either the add-on service or the add-on plan of "mongolab".
+
+C:\Users\erick\Desktop\h\groceries-server>^R
+
+Microsoft Windows [Version 10.0.19044.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\erick>cd Desktop
+
+C:\Users\erick\Desktop>cd h
+
+C:\Users\erick\Desktop\h>cd groceries-server
+
+C:\Users\erick\Desktop\h\groceries-server>heroku create groceries-server-test
+ »   Warning: heroku update available from 7.53.0 to 7.67.1.
+Creating ⬢ groceries-server-test... done
+https://groceries-server-test.herokuapp.com/ | https://git.heroku.com/groceries-server-test.git
+
+C:\Users\erick\Desktop\h\groceries-server>git remote -v
+heroku  https://git.heroku.com/groceries-server-test.git (fetch)
+heroku  https://git.heroku.com/groceries-server-test.git (push)
+origin  https://github.com/SWDV-665/groceries-server.git (fetch)
+origin  https://github.com/SWDV-665/groceries-server.git (push)
+
+C:\Users\erick\Desktop\h\groceries-server>git push heroku master
+Enumerating objects: 37, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (37/37), 11.32 KiB | 3.77 MiB/s, done.
+Total 37 (delta 18), reused 37 (delta 18), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Building on the Heroku-22 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Node.js app detected
+remote:
+remote: -----> Creating runtime environment
+remote:
+remote:        NPM_CONFIG_LOGLEVEL=error
+remote:        NODE_VERBOSE=false
+remote:        NODE_ENV=production
+remote:        NODE_MODULES_CACHE=true
+remote:
+remote: -----> Installing binaries
+remote:        engines.node (package.json):  unspecified
+remote:        engines.npm (package.json):   unspecified (use default)
+remote:
+remote:        Resolving node version 18.x...
+remote:        Downloading and installing node 18.12.1...
+remote:        Using default npm version: 8.19.2
+remote:
+remote: -----> Installing dependencies
+remote:        Installing node modules
+remote:
+remote:        added 79 packages, and audited 80 packages in 3s
+remote:
+remote:        9 vulnerabilities (3 moderate, 3 high, 3 critical)
+remote:
+remote:        To address issues that do not require attention, run:
+remote:          npm audit fix
+remote:
+remote:        To address all issues, run:
+remote:          npm audit fix --force
+remote:
+remote:        Run `npm audit` for details.
+remote:
+remote: -----> Build
+remote:
+remote: -----> Caching build
+remote:        - npm cache
+remote:
+remote: -----> Pruning devDependencies
+remote:
+remote:        up to date, audited 1 package in 2s
+remote:
+remote:        found 0 vulnerabilities
+remote:
+remote: -----> Build succeeded!
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 41.6M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://groceries-server-test.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/groceries-server-test.git
+ * [new branch]      master -> master
+
+C:\Users\erick\Desktop\h\groceries-server>mongo create mongolab
+MongoDB shell version v3.6.23
+connecting to: mongodb://127.0.0.1:27017/create?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("88ea39f9-1a5a-4c33-87a9-8d442b9029d0") }
+MongoDB server version: 3.6.23
+2022-12-04T22:44:13.933-0600 E -        [main] file [mongolab] doesn't exist
+failed to load: mongolab
+
+C:\Users\erick\Desktop\h\groceries-server>heroku addons: create mongolab
+ »   Warning: heroku update available from 7.53.0 to 7.67.1.
+ »   Warning: addons: is not a heroku command.
+Did you mean addons? [y/n]: y
+ »   Error: Unexpected arguments: create, mongolab
+ »   See more help with --help
+
+C:\Users\erick\Desktop\h\groceries-server>heroku addons:create mongolab
+ »   Warning: heroku update available from 7.53.0 to 7.67.1.
+Creating mongolab on ⬢ groceries-server-test... !
+ !    Couldn't find either the add-on service or the add-on plan of "mongolab".
+
+C:\Users\erick\Desktop\h\groceries-server>^R
+
+
+Microsoft Windows [Version 10.0.19044.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\erick>cd Desktop
+
+C:\Users\erick\Desktop>cd h
+
+C:\Users\erick\Desktop\h>cd groceries
+
+C:\Users\erick\Desktop\h\groceries>ionic serve
+Starting app-scripts server: --address 0.0.0.0 --port 8100 --livereload-port 35729 --dev-logger-port 53703 --nobrowser -
+Ctrl+C to cancel
+[22:49:45]  watch started ...
+[22:49:45]  build dev started ...
+[22:49:46]  clean started ...
+[22:49:46]  clean finished in 13 ms
+[22:49:46]  copy started ...
+[22:49:46]  deeplinks started ...
+[22:49:46]  deeplinks finished in 68 ms
+[22:49:46]  transpile started ...
+[22:49:57]  transpile finished in 11.31 s
+[22:49:57]  preprocess started ...
+[22:49:57]  preprocess finished in 2 ms
+[22:49:57]  webpack started ...
+[22:49:57]  copy finished in 11.72 s
+[22:50:08]  webpack finished in 10.73 s
+[22:50:08]  sass started ...
+[22:50:11]  sass finished in 3.17 s
+[22:50:11]  postprocess started ...
+[22:50:11]  postprocess finished in 13 ms
+[22:50:11]  lint started ...
+[22:50:11]  build dev finished in 25.56 s
+[22:50:11]  watch ready in 25.79 s
+[22:50:11]  dev server running: http://localhost:8101/
+
+[OK] Development server running!
+     Local: http://localhost:8101
+     External: http://192.168.1.178:8101
+     DevApp: groceries@8101 on DESKTOP-P46ROMS
+
+[22:50:20]  tslint: C:/Users/erick/Desktop/h/groceries/src/pages/home/home.ts, line: 29
+            Property 'alertCtrl' is declared but its value is never read.
+
+      L29:  NavController, public toastCtrl: ToastController,  private alertCtrl: AlertController, public dataService: G
+      L30:     dataService.dataChanged$.subscribe((dataChanged: boolean) => {
+
+[22:50:20]  lint finished in 9.27 s
